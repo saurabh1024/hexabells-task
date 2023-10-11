@@ -1,0 +1,64 @@
+.product-card{
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 340px;
+}
+.image-container>img{
+    height: 277px;
+    width: 340px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.price-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.addBtn{
+    color:#0825EB;
+    width: 230px;
+    height: 41px;
+    text-transform: uppercase;
+    font-family: Lava Kannada;
+    font-size: 16.737px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    background-color: #FFF;
+    border: none;
+    border-bottom:2px solid #0825EB ;
+
+}
+.addBtn:hover{
+    background-color: #0825EB;
+    color: #FFF;
+    transition: ease-in;
+    transition-duration: 250ms;
+}
+.price{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-align: center;
+    background: #F0F0F0;
+    width: 111px;
+    height: 40px;
+    padding-left: 1rem;
+    color: #000;
+    font-family: Lao Muang Don;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    border: none;
+    border-bottom: 1px solid #A4A4A4;
+}
+.price:hover{
+    color: #0825EB;
+    transition: ease-in;
+    transition-duration: 300ms;
+}
+.altImage:hover{
+    background-image: url("https://fastly.picsum.photos/id/38/1280/960.jpg?hmac=HBrgyJHQOGVicaWoXgvdSfTakkAyv4BxAt4rF0DhWkU");
+}

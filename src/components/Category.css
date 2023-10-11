@@ -1,0 +1,42 @@
+.category{
+    padding: 1rem;
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+li{
+    padding: 1rem;
+    border: 1px solid #0825EB;
+    margin-top: 1rem;
+    width: 100px;
+    border-radius: 27px;
+    text-align: center;
+}
+li:hover{
+    background-color: #0825EB;
+}
+.category-title{
+    color: #000;
+    font-family: Lava Kannada;
+    font-size: 54.162px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 65px;
+    margin: 0 0 3rem 0;
+}
+
+.chooseBy{
+    margin: 0;
+    color: #000;
+    font-family: QTOptimum;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+}
+.heading{
+    height: 120px;
+    border-bottom: #000 2px solid;
+    width: min-content;
+    margin-bottom: 4rem;
+}

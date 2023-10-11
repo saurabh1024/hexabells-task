@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container{
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+.App{
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100%;
+  width: 1200px;
+  background-color: #fff;
+  padding: 2rem;
+  position: relative;
+  margin: auto;
+}
+.cart-container{
+  /* position: absolute;
+  top: 2rem;
+  right: 2rem;
+  width: 30px;
+  height: 20.488px;
+  fill: black; */
+}
+.category-container{
+  width: 100dvw;
+  height: 100dvh;
+}
+.products-container{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 3rem;
 }
 
-.App-link {
-  color: #61dafb;
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+}
+.logo-container>img{
+  width: 152px;
+  height: 70px;
+}
+.searchBar{
+  color: #959595;
+  font-family: Lava Kannada;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 1px solid rgb(176, 176, 176);
+  padding: 0 10px;
+  border-radius: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+.searchBar>input{
+  border: none;
+  outline: none;
+  background-color: #FFF;
+  padding: 15px 20px;
+  width: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.searchBar>span{
+  height: 100%;
+  width: 32px;
+  padding-left: 8px;
+  border-right: 1px solid rgb(189, 187, 187);
+}
+.loginAndCart{
+  width: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #959595;
+  padding:10px 20px;
+  border-radius: 1rem;
+}
+.login>button{
+  border: none;
+  background-color: #fff ;
+  outline: none;
 }
