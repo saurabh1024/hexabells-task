@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+![image](https://github.com/saurabh1024/hexabells-task/assets/55682954/4814db78-9641-4531-99d4-9546c08f45b8)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
